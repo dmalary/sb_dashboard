@@ -12,23 +12,6 @@ const VsTeamCard = ({team}) => {
 
   // console.log('vsInfo', vsInfo);
   
-  // return (
-  //   <div>
-  //     {/* {team} */}
-  //     {vsInfo.map(vs => (
-  //       <div key={`${team}${vs.SB_roman}`}>
-  //         <p>{vs.Winner === team ? vs.Loser : vs.Winner}</p>
-  //         <p>Superbowl {vs.SB_roman}</p>
-  //         <p>{vs.Stadium} ({vs.City})</p>
-  //         <p>{vs.Date}</p>
-  //         <p>
-  //           {vs.Winner === team ? vs.Pts_Loser : vs.Pts_Winner} - {vs.Winner !== team ? vs.Pts_Loser : vs.Pts_Winner}
-  //         </p>
-  //       </div>
-  //     ))}
-  //   </div>
-  // )
-
   return (
     <div>
       <h2>Super Bowl Matchups for {team}</h2>
@@ -42,7 +25,10 @@ const VsTeamCard = ({team}) => {
           const opponentScore = isWin ? game.Pts_loser : game.Pts_Winner;
 
           return (
-            <div key={`${team}-${game.SB_roman}`} style={{ marginBottom: "1rem", borderBottom: "1px solid #ccc", paddingBottom: "1rem" }}>
+            <div key={`${team}-${game.SB_roman}`} 
+            // style={{ marginBottom: "1rem", borderBottom: "1px solid #ccc", paddingBottom: "1rem" }}
+            >
+              <hr/>
               <p>Opponent: {opponent}</p>
               <p>Stadium: {game.Stadium} ({game.City})</p>
               <p>Date: {game.Date}</p>
