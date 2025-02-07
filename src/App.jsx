@@ -4,7 +4,7 @@ import { useState } from "react";
 
 // import NavBtn from "../components/NavBtn";
 import ActiveTeamCard from "../components/ActiveTeamCard";
-// import VsTeamCard from "../components/VsTeamCard";
+import VsTeamCard from "../components/VsTeamCard";
 
 import sb_standings from "../data/sb_standings.json"
 
@@ -37,11 +37,8 @@ function App() {
       </div>
       
       <div>
-        {/* <div>{activeTeam}</div> */}
         <ActiveTeamCard team={activeTeam} />
-        <div>right
-          <div>vs map</div>
-        </div>
+        <VsTeamCard team={activeTeam} />
       </div>
     </>
   )
