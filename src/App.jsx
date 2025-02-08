@@ -30,13 +30,14 @@ function App() {
 
   return (
     <div className='min-h-200'>
-    <div className="grid grid-cols-1 mx-auto">
-      <h1>Superbowl Matchups</h1>
-      <p>this visual shows only teams that have made a Superbowl appearance. Click through team names to find more information about these SB games (who they played against, date, how many appearances, etc).</p>
-      <p>SB games are highlighted in red if the selected team lost, and green to show a win.</p>
+    <div className="grid grid-cols-1 mx-auto pt-8 pb-6 w-5/6">
+      <h1 className='app-title py-6 px-2'>Superbowl Matchups</h1>
+      <p>This visual displays teams that have appeared in the Super Bowl. Click on a team name to explore details about their Super Bowl matchups, including opponents, game dates, and total appearances.</p>
+      <br/>
+      <p>Super Bowl games are highlighted in <span className="font-semibold text-red-600">red</span> for losses and <span className="font-semibold text-green-600">green</span> for wins.</p>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <div className='col-span-3 mt-8 mb-4 mx-auto'>
+      <div className='col-span-3 mt-4 mb-4 mx-auto'>
         {teams.map((team) => {
           // console.log('team', team),
           const teamColor = team_hex.find(el => el.team_code === team)?.color || "#ccc";
@@ -70,7 +71,7 @@ function App() {
       
       {
         (!activeTeam) ? 
-        <div className='col-span-3'>No team selected</div>
+        <div className='col-span-3 italic'>PLEASE SELECT A TEAM</div>
         :
         <>
         <div className="col-span-3 grid grid-cols-1 md:grid-cols-2">
