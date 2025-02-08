@@ -32,10 +32,10 @@ const VsTeamCard = ({team}) => {
                 // className="block max-w-sm p-6 m-6 bg-white rounded-lg shadow-sm dark:bg-white-800"
                 className={`block max-w-sm p-6 my-4 mx-auto bg-white rounded-lg shadow-sm dark:bg-white-800 ${isWin ? 'border-2 border-green-700' : 'border-2 border-red-700'}`}
               >
-                <p>vs: {opponent}</p>
+                <p>vs: <strong>{opponent}</strong></p>
                 <p>Stadium: {game.Stadium} ({game.City})</p>
                 <p>Date: {game.Date}</p>
-                <p>Final Score: {teamScore} - {opponentScore}</p>
+                <p className="italic">Final Score: {teamScore} - {opponentScore}</p>
               </div>
             </div>
           );

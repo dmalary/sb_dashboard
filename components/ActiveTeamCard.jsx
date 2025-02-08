@@ -13,7 +13,7 @@ const ActiveTeamCard = ({team}) => {
   // console.log('teamInfo', teamInfo);
   return (
     <div className="block max-w-sm p-6 my-4 mx-auto bg-white rounded-lg shadow-sm dark:bg-white-800">
-      <h2>{teamInfo.Tm}</h2>
+      <h2><strong>{teamInfo.Tm}</strong></h2>
       <p>Wins: {teamInfo.W}</p>
       <p>Losses: {teamInfo.L}</p>
       <p>W-L%: {teamInfo["W-L%"]}</p>
