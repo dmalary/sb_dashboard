@@ -32,7 +32,7 @@ function App() {
     <div className='min-h-200'>
     <div className="grid grid-cols-1 mx-auto pt-8 pb-6 w-5/6">
       <h1 className='app-title py-6 px-2'>Superbowl Matchups</h1>
-      <p>This visual displays teams that have appeared in the Super Bowl. Click on a team name to explore details about their Super Bowl matchups, including opponents, game dates, and total appearances.</p>
+      <p>This dashboard displays teams that have appeared in the Super Bowl. Click on a team name to explore details about their Super Bowl matchups, including opponents, game dates, and total appearances.</p>
       <br/>
       <p>Super Bowl games are highlighted in <span className="font-semibold text-red-600">red</span> for losses and <span className="font-semibold text-green-600">green</span> for wins.</p>
     </div>
