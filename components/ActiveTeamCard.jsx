@@ -2,7 +2,7 @@
 
 import sb_standings from "../data/sb_standings.json"
 
-const ActiveTeamCard = ({team}) => {
+const ActiveTeamCard = ({team, teamColor}) => {
   // if (!team) return <div>No team selected</div>;
 
   // team && console.log('sb_standings', sb_standings)
@@ -12,7 +12,13 @@ const ActiveTeamCard = ({team}) => {
 
   // console.log('teamInfo', teamInfo);
   return (
-    <div className="block max-w-sm p-6 my-4 mx-auto bg-white rounded-lg shadow-sm dark:bg-white-800">
+    <div className="block max-w-sm p-6 my-4 mx-auto bg-white rounded-lg shadow-sm dark:bg-white-800"
+      style={{
+        // border: `3px solid ${teamColor}`,
+        color: '#f9f9f9',
+        backgroundColor: teamColor,
+      }}
+    >
       <h2><strong>{teamInfo.Tm}</strong></h2>
       <p>Wins: {teamInfo.W}</p>
       <p>Losses: {teamInfo.L}</p>

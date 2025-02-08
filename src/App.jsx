@@ -26,6 +26,7 @@ function App() {
     setActiveTeam(val)
   };
 
+  const teamColor = team_hex.find(el => el.team_code === activeTeam)?.color;
   // const teamColor = team_hex.find(el => el.team_code === activeTeam)?.color || "#ccc";
 
   return (
@@ -75,7 +76,7 @@ function App() {
         :
         <>
         <div className="col-span-3 grid grid-cols-1 md:grid-cols-2">
-          <div className='col-span-1'><ActiveTeamCard team={activeTeam} /></div>
+          <div className='col-span-1'><ActiveTeamCard team={activeTeam} teamColor={teamColor} /></div>
           <div className='col-span-1'><VsTeamCard team={activeTeam} /></div>
         </div>
         </>
