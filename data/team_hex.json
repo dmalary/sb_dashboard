@@ -1,0 +1,162 @@
+[
+  {
+    "team_name": "Baltimore Ravens",
+    "team_code": "BAL",
+    "color": "#241773"
+  },
+  {
+    "team_name": "Cincinnati Bengals",
+    "team_code": "CIN",
+    "color": "#FB4F14"
+  },
+  {
+    "team_name": "Cleveland Browns",
+    "team_code": "CLE",
+    "color": "#311D00"
+  },
+  {
+    "team_name": "Pittsburgh Steelers",
+    "team_code": "PIT",
+    "color": "#FFB612"
+  },
+  {
+    "team_name": "Buffalo Bills",
+    "team_code": "BUF",
+    "color": "#00338D"
+  },
+  {
+    "team_name": "Miami Dolphins",
+    "team_code": "MIA",
+    "color": "#008E97"
+  },
+  {
+    "team_name": "New England Patriots",
+    "team_code": "NE",
+    "color": "#002244"
+  },
+  {
+    "team_name": "New York Jets",
+    "team_code": "NYJ",
+    "color": "#125740"
+  },
+  {
+    "team_name": "Houston Texans",
+    "team_code": "HOU",
+    "color": "#03202F"
+  },
+  {
+    "team_name": "Indianapolis Colts",
+    "team_code": "IND",
+    "color": "#002C5F"
+  },
+  {
+    "team_name": "Jacksonville Jaguars",
+    "team_code": "JAX",
+    "color": "#101820"
+  },
+  {
+    "team_name": "Tennessee Titans",
+    "team_code": "TEN",
+    "color": "#0C2340"
+  },
+  {
+    "team_name": "Denver Broncos",
+    "team_code": "DEN",
+    "color": "#FB4F14"
+  },
+  {
+    "team_name": "Kansas City Chiefs",
+    "team_code": "KC",
+    "color": "#E31837"
+  },
+  {
+    "team_name": "Las Vegas Raiders",
+    "team_code": "LV",
+    "color": "#000000"
+  },
+  {
+    "team_name": "Los Angeles Chargers",
+    "team_code": "LAC",
+    "color": "#0080C6"
+  },
+  {
+    "team_name": "Chicago Bears",
+    "team_code": "CHI",
+    "color": "#0B162A"
+  },
+  {
+    "team_name": "Detroit Lions",
+    "team_code": "DET",
+    "color": "#0076B6"
+  },
+  {
+    "team_name": "Green Bay Packers",
+    "team_code": "GB",
+    "color": "#203731"
+  },
+  {
+    "team_name": "Minnesota Vikings",
+    "team_code": "MIN",
+    "color": "#4F2683"
+  },
+  {
+    "team_name": "Dallas Cowboys",
+    "team_code": "DAL",
+    "color": "#003594"
+  },
+  {
+    "team_name": "New York Giants",
+    "team_code": "NYG",
+    "color": "#0B2265"
+  },
+  {
+    "team_name": "Philadelphia Eagles",
+    "team_code": "PHI",
+    "color": "#004C54"
+  },
+  {
+    "team_name": "Washington Commanders",
+    "team_code": "WAS",
+    "color": "#5A1414"
+  },
+  {
+    "team_name": "Atlanta Falcons",
+    "team_code": "ATL",
+    "color": "#A71930"
+  },
+  {
+    "team_name": "Carolina Panthers",
+    "team_code": "CAR",
+    "color": "#0085CA"
+  },
+  {
+    "team_name": "New Orleans Saints",
+    "team_code": "NO",
+    "color": "#D3BC8D"
+  },
+  {
+    "team_name": "Tampa Bay Buccaneers",
+    "team_code": "TB",
+    "color": "#D50A0A"
+  },
+  {
+    "team_name": "Arizona Cardinals",
+    "team_code": "ARZ",
+    "color": "#97233F"
+  },
+  {
+    "team_name": "Los Angeles Rams",
+    "team_code": "LAR",
+    "color": "#003594"
+  },
+  {
+    "team_name": "San Francisco 49ers",
+    "team_code": "SF",
+    "color": "#AA0000"
+  },
+  {
+    "team_name": "Seattle Seahawks",
+    "team_code": "SEA",
+    "color": "#002244"
+  }
+]
