@@ -11,7 +11,7 @@ const VsTeamCard = ({team}) => {
   const gameInfo = sb_games.filter(el => el.Winner_abr === team || el.Loser_abr === team);
 
   // console.log('vsInfo', vsInfo);
-  
+
   return (
     <div>
       <h2>Super Bowl Matchups for {team}</h2>
@@ -25,14 +25,16 @@ const VsTeamCard = ({team}) => {
           const opponentScore = isWin ? game.Pts_loser : game.Pts_Winner;
 
           return (
-            <div key={`${team}-${game.SB_roman}`} 
-            // style={{ marginBottom: "1rem", borderBottom: "1px solid #ccc", paddingBottom: "1rem" }}
-            >
-              <hr/>
-              <p>Opponent: {opponent}</p>
-              <p>Stadium: {game.Stadium} ({game.City})</p>
-              <p>Date: {game.Date}</p>
-              <p>Final Score: {teamScore} - {opponentScore}</p>
+            <div key={`${team}-${game.SB_roman}`} >
+              <div 
+                // key={`${team}-${game.SB_roman}`} 
+                className="block max-w-sm p-6 m-6 bg-white rounded-lg shadow-sm dark:bg-white-800"
+              >
+                <p>vs: {opponent}</p>
+                <p>Stadium: {game.Stadium} ({game.City})</p>
+                <p>Date: {game.Date}</p>
+                <p>Final Score: {teamScore} - {opponentScore}</p>
+              </div>
             </div>
           );
         })
